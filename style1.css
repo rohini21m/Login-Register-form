@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body,
+input {
+  font-family: "Poppins", sans-serif;
+}
+
+.box1 {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+  overflow: hidden;
+}
+.container {
+  position: relative;
+  height: 45%;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  display: grid;
+}
+
+.forms-box2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title {
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+  color: black;
+}
+.input-field {
+  max-width: 380px;
+  width: 100%;
+  height: 55px;
+  background-color: lightgrey;
+  margin: 10px 0;
+  border-radius: 55px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 0 0.4rem;
+}
+.input-field i {
+  text-align: center;
+  line-height: 55px;
+  color: black;
+  font-size: 1.1rem;
+}
+
+.input-field input {
+  background: none;
+  outline: none;
+  border: none;
+  line-height: 1;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.input-field input::placeholder {
+  color: grey;
+  font-weight: 600;
+}
+.btn {
+  width: 130px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: lightgrey;
+  color: black;
+  text-transform: uppercase;
+  font-size: 5mm;
+  transition: 0.5s;
+  margin: 8px 0;
+}
+.btn:hover {
+  background-color: coral;
+}
+
+.social-text {
+  padding: 0.7rem 0;
+  font-size: 3.5mm;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+.social-icon {
+  height: 46px;
+  width: 46px;
+  border: 1px solid black;
+  margin: 0 0.45rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.social-icon:hover {
+  transition: 0.3s;
+  color: royalblue;
+  border-color: royalblue;
+}
+
+.message {
+  margin: 1px;
+  padding: 0;
+  font-size: 5mm;
+  color: black;
+}
